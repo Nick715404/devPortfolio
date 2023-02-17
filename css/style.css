@@ -1,0 +1,237 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.container {
+    max-width: 1005px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/*___________________________header_________________________*/
+
+.header-nav {
+    padding: 33px 0 32px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.header-nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*____________________info_____________________*/
+
+
+.info__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 30px 0;
+}
+
+.info-content__name {
+    max-width: 124px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 59px;
+}
+
+.info-content__bio {
+    max-width: 170px;
+    padding-top: 55px;
+}
+
+.info-content__lang {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+.info-content__btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.info-content__btn--deactive {
+    color: #828282;
+}
+
+.info__img {
+    width: 100%;
+    margin-bottom: 105px;
+}
+
+/*_________________about______________*/
+
+.about{
+    background-color: #F6F6F6;
+}
+
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    margin-bottom: 90px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+}
+.about__title{
+    padding-bottom: 20px;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    max-width: 485px;
+    padding-bottom: 15px;
+}
+ /*____________________________Skills__________________*/
+
+.skills-text{
+    text-align: center;
+}
+
+.skills__text{
+    padding-bottom: 85px;
+}
+
+.skills-text__title{
+    padding-bottom: 70px;
+}
+
+.skills__cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 110px;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.card-item__text{
+    text-align: center;
+}
+
+/*__________________________portfolio_______________________*/
+
+.portfolio {
+    background-color: #F6F6F6;
+}
+
+.portfolio__wrapper{
+    text-align: center;
+}
+
+.portfolio__title{
+    padding: 110px 0 45px 0;
+}
+
+.portfolio-content__img{
+    width: 100%;
+}
+
+.portfolio-content__link{
+    display: inline-block;
+    padding: 45px 0 100px 0;
+}
+
+/*__________________________footer_____________________*/
+
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content{
+    max-width: 270px;
+    text-align: center;
+    padding: 0 0 85px 0 ;
+}
+
+
+.footer-content__title {
+    padding: 114px 0 20px 0;
+}
+
+.footer-content__text {
+    padding-bottom: 30px;
+}
+
+.footer-content__button{
+    padding: 13px 30px;
+    background-color: #070707;
+    border-radius: 50px;
+    color: #ffff;
+    transition: all 0.5s;
+}
+
+.footer-content__button:hover{
+    background-color: #646464;
+    padding: 20px 40px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 60px;
+    padding-bottom: 45px;
+}
+
+
+.footer__social {
+    max-width: 245px;
+    color: #828282;
+    text-align: center;
+    padding-bottom: 120px;
+}
