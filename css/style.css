@@ -296,3 +296,10 @@ body {
         right: 0px;
     }
 }
+
+@media (max-width:320px) {
+    .footer-links {
+        display: flex;
+        gap: 30px;
+    }
+}
